@@ -4,20 +4,21 @@ require_relative 'lib/active_campaign_webhooks/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'active_campaign_webhooks'
-  spec.version       = ActiveCampaignWebhooks::VERSION
-  spec.authors       = ['Sam']
+  spec.version       = ActiveCampaign::Webhooks::VERSION
+  spec.authors       = ['Sam Boyne']
   spec.email         = ['sam@banqer.co']
 
   spec.summary       = 'Structs and Helpers for Active Campaign webhooks'
-  spec.homepage      = ''
+  spec.homepage      = 'https://github.com/Hoppelite/active_campaign_webhooks'
   spec.license       = 'MIT'
   spec.required_ruby_version = Gem::Requirement.new('>= 2.3.0')
 
-  spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com'"
-
   spec.metadata['homepage_uri'] = spec.homepage
-  spec.metadata['source_code_uri'] = "TODO: Put your gem's public repo URL here."
-  spec.metadata['changelog_uri'] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata['source_code_uri'] = 'https://github.com/Hoppelite/active_campaign_webhooks'
+  spec.metadata['changelog_uri'] = 'https://github.com/Hoppelite/active_campaign_webhooks'
+
+  spec.add_dependency 'dry-types'
+  spec.add_dependency 'dry-struct'
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.

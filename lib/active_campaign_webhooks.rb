@@ -1,6 +1,10 @@
-require "active_campaign_webhooks/version"
+# frozen_string_literal: true
 
-module ActiveCampaignWebhooks
-  class Error < StandardError; end
-  # Your code goes here...
+require 'active_campaign/webhooks/version'
+
+module ActiveCampaign::Webhooks
+  Dir['active_campaign/webhooks/request/*.rb'].each do |f|
+    model = f.split('/').last.split('.rb').first
+    require model unless defined?(model)
+  end
 end

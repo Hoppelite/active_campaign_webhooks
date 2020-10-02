@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative 'lib/active_campaign_webhooks/version'
+require_relative 'lib/active_campaign/webhooks/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'active_campaign_webhooks'

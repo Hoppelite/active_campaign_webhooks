@@ -5,7 +5,7 @@ require 'active_campaign/webhooks/version'
 module ActiveCampaign
   module Webhooks
     module Request
-      Dir['active_campaign/webhooks/request/*.rb'].sort.each do |f|
+      Dir['lib/active_campaign/webhooks/request/*.rb'].sort.each do |f|
         puts f
         file_path = f.split('/', 2).last.split('.').first
         class_name = file_path.split('/').last.split('_').collect(&:capitalize).join

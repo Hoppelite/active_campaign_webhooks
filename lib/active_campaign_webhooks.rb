@@ -2,7 +2,6 @@
 
 require 'active_campaign/webhooks/version'
 
-Dir['lib/active_campaign/webhooks/request/*.rb'].each do |f|
-  model = f.split('/').last.split('.rb').first
-  require_relative model unless defined?(model)
+Dir['lib/active_campaign/webhooks/request/*.rb'].sort.each do |f|
+  require f.split('/', 2).last.split('.').first
 end

@@ -19,6 +19,7 @@ module ActiveCampaign
       class BaseRequest < Dry::Struct
         transform_keys(&:to_sym)
 
+        # @return [Types::String]
         attribute :type, Types::String
       end
     end

@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative 'active_campaign/webhooks/version'
+require 'active_campaign/webhooks/version'
 
 module ActiveCampaign
   module Webhooks

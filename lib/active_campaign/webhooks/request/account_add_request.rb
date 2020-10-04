@@ -17,7 +17,7 @@ module ActiveCampaign
         attribute :list,                     Types::String
         # @return [Account]
         attribute :account,                  Account
-            end
+      end
     end
   end
 end

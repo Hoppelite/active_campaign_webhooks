@@ -6,3 +6,7 @@ source 'https://rubygems.org'
 gemspec
 
 gem 'rake', '~> 12.0'
+
+# dry
+gem 'dry-types'
+gem 'dry-struct'

@@ -5,7 +5,7 @@ require 'active_campaign/webhooks/version'
 module ActiveCampaign
   module Webhooks
     module Request
-      Dir['lib/active_campaign/webhooks/request/*.rb'].sort.each do |f|
+      Dir['active_campaign/webhooks/request/*.rb'].sort.each do |f|
         file_path = f.split('/', 2).last.split('.').first
         class_name = file_path.split('/').last.split('_').collect(&:capitalize).join
         autoload class_name, file_path
@@ -13,5 +13,3 @@ module ActiveCampaign
     end
   end
 end
-
-puts ActiveCampaign::Webhooks::Request::AccountAddRequest.new

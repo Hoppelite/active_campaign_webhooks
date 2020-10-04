@@ -6,7 +6,7 @@ module ActiveCampaign
   module Webhooks
     module Request
       Dir['active_campaign/webhooks/request/*.rb'].sort.each do |f|
-        file_path = f.split('.').first
+        file_path = f.split('/', 2).last.split('.').first
         class_name = file_path.split('/').last.split('_').collect(&:capitalize).join
         autoload class_name, file_path
       end

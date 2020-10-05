@@ -5,22 +5,22 @@ module ActiveCampaign
     module Request
       # AC Request Struct List
       class List < BaseRequest
-        # @return [Types::String]
-        attribute :sender_url,      Types::String
-        # @return [Types::String]
-        attribute :sender_country,  Types::String
-        # @return [Types::String]
-        attribute :sender_addr1,    Types::String
-        # @return [Types::String]
-        attribute :sender_reminder, Types::String
-        # @return [Types::String]
-        attribute :sender_city,     Types::String
-        # @return [Types::String]
-        attribute :sender_addr2,    Types::String
-        # @return [Types::String]
-        attribute :sender_state,    Types::String
-        # @return [Types::String]
-        attribute :sender_zip,      Types::String
+        # @return [String]
+        attr_accessor :sender_url
+        # @return [String]
+        attr_accessor :sender_country
+        # @return [String]
+        attr_accessor :sender_addr1
+        # @return [String]
+        attr_accessor :sender_reminder
+        # @return [String]
+        attr_accessor :sender_city
+        # @return [String]
+        attr_accessor :sender_addr2
+        # @return [String]
+        attr_accessor :sender_state
+        # @return [String]
+        attr_accessor :sender_zip
             end
     end
   end

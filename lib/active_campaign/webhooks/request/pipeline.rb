@@ -5,10 +5,10 @@ module ActiveCampaign
     module Request
       # AC Request Struct Pipeline
       class Pipeline < BaseRequest
-        # @return [Types::String]
-        attribute :id,    Types::String
-        # @return [Types::String]
-        attribute :title, Types::String
+        # @return [String]
+        attr_accessor :id
+        # @return [String]
+        attr_accessor :title
             end
     end
   end

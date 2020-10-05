@@ -5,16 +5,16 @@ module ActiveCampaign
     module Request
       # AC Request Struct ListAddRequest
       class ListAddRequest < BaseRequest
-        # @return [Types::String]
-        attribute :list_add_request_type, Types::String
-        # @return [Types::String]
-        attribute :date_time,             Types::String
-        # @return [Types::String]
-        attribute :initiated_by,          Types::String
-        # @return [Types::String]
-        attribute :initiated_from,        Types::String
+        # @return [String]
+        attr_accessor :list_add_request_type
+        # @return [String]
+        attr_accessor :date_time
+        # @return [String]
+        attr_accessor :initiated_by
+        # @return [String]
+        attr_accessor :initiated_from
         # @return [List]
-        attribute :list,                  List
+        attr_accessor :list
             end
     end
   end

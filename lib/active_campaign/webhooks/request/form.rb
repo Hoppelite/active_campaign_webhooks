@@ -5,8 +5,8 @@ module ActiveCampaign
     module Request
       # AC Request Struct Form
       class Form < BaseRequest
-        # @return [Types::String]
-        attribute :id, Types::String
+        # @return [String]
+        attr_accessor :id
             end
     end
   end

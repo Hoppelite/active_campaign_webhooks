@@ -5,12 +5,12 @@ module ActiveCampaign
     module Request
       # AC Request Struct AccountContactRemoved
       class AccountContactRemoved < BaseRequest
-        # @return [Types::String]
-        attribute :id,      Types::String
-        # @return [Types::String]
-        attribute :account, Types::String
-        # @return [Types::String]
-        attribute :contact, Types::String
+        # @return [String]
+        attr_accessor :id
+        # @return [String]
+        attr_accessor :account
+        # @return [String]
+        attr_accessor :contact
             end
     end
   end

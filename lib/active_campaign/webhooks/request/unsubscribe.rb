@@ -5,8 +5,8 @@ module ActiveCampaign
     module Request
       # AC Request Struct Unsubscribe
       class Unsubscribe < BaseRequest
-        # @return [Types::String]
-        attribute :reason, Types::String
+        # @return [String]
+        attr_accessor :reason
             end
     end
   end

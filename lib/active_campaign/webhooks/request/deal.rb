@@ -5,50 +5,50 @@ module ActiveCampaign
     module Request
       # AC Request Struct Deal
       class Deal < BaseRequest
-        # @return [Types::String]
-        attribute :currency_symbol,    Types::String
-        # @return [Types::String]
-        attribute :currency,           Types::String
-        # @return [Types::String]
-        attribute :customer_acct_id,   Types::String
-        # @return [Types::String]
-        attribute :stageid,            Types::String
-        # @return [Types::String]
-        attribute :owner,              Types::String
-        # @return [Types::String]
-        attribute :contact_lastname,   Types::String
-        # @return [Types::String]
-        attribute :id,                 Types::String
-        # @return [Types::String]
-        attribute :pipeline_title,     Types::String
-        # @return [Types::String]
-        attribute :title,              Types::String
-        # @return [Types::String]
-        attribute :customer_acct_name, Types::String
-        # @return [Types::String]
-        attribute :stage_title,        Types::String
-        # @return [Types::String]
-        attribute :pipelineid,         Types::String
-        # @return [Types::String]
-        attribute :note,               Types::String
-        # @return [Types::String]
-        attribute :contactid,          Types::String
-        # @return [Types::String]
-        attribute :status,             Types::String
-        # @return [Types::String]
-        attribute :contact_firstname,  Types::String
-        # @return [Types::String]
-        attribute :contact_email,      Types::String
-        # @return [Types::String]
-        attribute :contact_avatar,     Types::String
-        # @return [Types::String]
-        attribute :age,                Types::String
-        # @return [Types::String]
-        attribute :value,              Types::String
-        # @return [Types::String]
-        attribute :owner_firstname,    Types::String
-        # @return [Types::String]
-        attribute :owner_lastname,     Types::String
+        # @return [String]
+        attr_accessor :currency_symbol
+        # @return [String]
+        attr_accessor :currency
+        # @return [String]
+        attr_accessor :customer_acct_id
+        # @return [String]
+        attr_accessor :stageid
+        # @return [String]
+        attr_accessor :owner
+        # @return [String]
+        attr_accessor :contact_lastname
+        # @return [String]
+        attr_accessor :id
+        # @return [String]
+        attr_accessor :pipeline_title
+        # @return [String]
+        attr_accessor :title
+        # @return [String]
+        attr_accessor :customer_acct_name
+        # @return [String]
+        attr_accessor :stage_title
+        # @return [String]
+        attr_accessor :pipelineid
+        # @return [String]
+        attr_accessor :note
+        # @return [String]
+        attr_accessor :contactid
+        # @return [String]
+        attr_accessor :status
+        # @return [String]
+        attr_accessor :contact_firstname
+        # @return [String]
+        attr_accessor :contact_email
+        # @return [String]
+        attr_accessor :contact_avatar
+        # @return [String]
+        attr_accessor :age
+        # @return [String]
+        attr_accessor :value
+        # @return [String]
+        attr_accessor :owner_firstname
+        # @return [String]
+        attr_accessor :owner_lastname
             end
     end
   end

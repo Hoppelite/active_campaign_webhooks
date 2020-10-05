@@ -5,8 +5,8 @@ module ActiveCampaign
     module Request
       # AC Request Struct Forward
       class Forward < BaseRequest
-        # @return [Types::String]
-        attribute :count, Types::String
+        # @return [String]
+        attr_accessor :count
             end
     end
   end

@@ -5,12 +5,12 @@ module ActiveCampaign
     module Request
       # AC Request Struct Share
       class Share < BaseRequest
-        # @return [Types::String]
-        attribute :network,    Types::String
-        # @return [Types::String]
-        attribute :network_id, Types::String
-        # @return [Types::String]
-        attribute :content,    Types::String
+        # @return [String]
+        attr_accessor :network
+        # @return [String]
+        attr_accessor :network_id
+        # @return [String]
+        attr_accessor :content
             end
     end
   end

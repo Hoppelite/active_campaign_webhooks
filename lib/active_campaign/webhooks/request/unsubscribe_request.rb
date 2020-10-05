@@ -5,26 +5,26 @@ module ActiveCampaign
     module Request
       # AC Request Struct UnsubscribeRequest
       class UnsubscribeRequest < BaseRequest
-        # @return [Types::String]
-        attribute :url,                      Types::String
-        # @return [Types::String]
-        attribute :unsubscribe_request_type, Types::String
-        # @return [Types::String]
-        attribute :date_time,                Types::String
-        # @return [Types::String]
-        attribute :initiated_by,             Types::String
-        # @return [Types::String]
-        attribute :initiated_from,           Types::String
-        # @return [Types::String]
-        attribute :list,                     Types::String
+        # @return [String]
+        attr_accessor :url
+        # @return [String]
+        attr_accessor :unsubscribe_request_type
+        # @return [String]
+        attr_accessor :date_time
+        # @return [String]
+        attr_accessor :initiated_by
+        # @return [String]
+        attr_accessor :initiated_from
+        # @return [String]
+        attr_accessor :list
         # @return [Campaign]
-        attribute :form,                     Campaign
+        attr_accessor :form
         # @return [Campaign]
-        attribute :campaign,                 Campaign
+        attr_accessor :campaign
         # @return [Unsubscribe]
-        attribute :unsubscribe,              Unsubscribe
+        attr_accessor :unsubscribe
         # @return [Contact]
-        attribute :contact,                  Contact
+        attr_accessor :contact
             end
     end
   end

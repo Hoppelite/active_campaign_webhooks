@@ -5,18 +5,18 @@ module ActiveCampaign
     module Request
       # AC Request Struct DealUpdateRequest
       class DealUpdateRequest < BaseRequest
-        # @return [Types::String]
-        attribute :deal_update_request_type, Types::String
-        # @return [Types::String]
-        attribute :date_time,                Types::String
-        # @return [Types::String]
-        attribute :initiated_by,             Types::String
-        # @return [Types::String]
-        attribute :initiated_from,           Types::String
+        # @return [String]
+        attr_accessor :deal_update_request_type
+        # @return [String]
+        attr_accessor :date_time
+        # @return [String]
+        attr_accessor :initiated_by
+        # @return [String]
+        attr_accessor :initiated_from
         # @return [Deal]
-        attribute :deal,                     Deal
+        attr_accessor :deal
         # @return [UpdatedFields]
-        attribute :updated_fields,           UpdatedFields
+        attr_accessor :updated_fields
             end
     end
   end

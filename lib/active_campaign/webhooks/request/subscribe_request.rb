@@ -5,22 +5,22 @@ module ActiveCampaign
     module Request
       # AC Request Struct SubscribeRequest
       class SubscribeRequest < BaseRequest
-        # @return [Types::String]
-        attribute :url,                    Types::String
-        # @return [Types::String]
-        attribute :subscribe_request_type, Types::String
-        # @return [Types::String]
-        attribute :date_time,              Types::String
-        # @return [Types::String]
-        attribute :initiated_by,           Types::String
-        # @return [Types::String]
-        attribute :initiated_from,         Types::String
-        # @return [Types::String]
-        attribute :list,                   Types::String
+        # @return [String]
+        attr_accessor :url
+        # @return [String]
+        attr_accessor :subscribe_request_type
+        # @return [String]
+        attr_accessor :date_time
+        # @return [String]
+        attr_accessor :initiated_by
+        # @return [String]
+        attr_accessor :initiated_from
+        # @return [String]
+        attr_accessor :list
         # @return [Form]
-        attribute :form,                   Form
+        attr_accessor :form
         # @return [Contact]
-        attribute :contact,                Contact
+        attr_accessor :contact
             end
     end
   end

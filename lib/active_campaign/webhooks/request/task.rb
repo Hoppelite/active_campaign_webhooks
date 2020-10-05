@@ -5,20 +5,20 @@ module ActiveCampaign
     module Request
       # AC Request Struct Task
       class Task < BaseRequest
-        # @return [Types::String]
-        attribute :note,       Types::String
-        # @return [Types::String]
-        attribute :id,         Types::String
-        # @return [Types::String]
-        attribute :duedate,    Types::String
-        # @return [Types::String]
-        attribute :donedate,   Types::String
-        # @return [Types::String]
-        attribute :type_title, Types::String
-        # @return [Types::String]
-        attribute :title,      Types::String
-        # @return [Types::String]
-        attribute :type_id,    Types::String
+        # @return [String]
+        attr_accessor :note
+        # @return [String]
+        attr_accessor :id
+        # @return [String]
+        attr_accessor :duedate
+        # @return [String]
+        attr_accessor :donedate
+        # @return [String]
+        attr_accessor :type_title
+        # @return [String]
+        attr_accessor :title
+        # @return [String]
+        attr_accessor :type_id
             end
     end
   end

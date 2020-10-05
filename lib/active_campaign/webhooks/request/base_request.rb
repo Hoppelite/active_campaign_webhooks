@@ -31,7 +31,7 @@ module ActiveCampaign
         end
 
         def slice attributes = []
-          as_json.slice(attributes)
+          as_json.slice(*attributes.map(&:to_s))
         end
       end
     end

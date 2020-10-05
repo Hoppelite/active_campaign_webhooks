@@ -24,14 +24,14 @@ module ActiveCampaign
           hash.each do |k, v|
             unless self.class.attribute_map[k].nil?
               class_obj = ActiveCampaign::Webhooks::Request.const_get(self.class.attribute_map[k])
-              v = class_obj.new(v)
+              v = class_obj.new(v.as_json)
             end
             public_send("#{k}=", v) if respond_to? "#{k}=" 
           end
         end
 
         def slice attributes = []
-          to_hash.slice(attributes)
+          as_json.slice(attributes)
         end
       end
     end

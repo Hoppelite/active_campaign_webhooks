@@ -6,17 +6,17 @@ module ActiveCampaign
       # AC Request Struct DealTaskAddRequest
       class DealTaskAddRequest < BaseRequest
         # @return [String]
-        attr_accessor :deal_task_add_request_type
+        attribute :deal_task_add_request_type
         # @return [String]
-        attr_accessor :date_time
+        attribute :date_time
         # @return [String]
-        attr_accessor :initiated_by
+        attribute :initiated_by
         # @return [String]
-        attr_accessor :initiated_from
+        attribute :initiated_from
         # @return [Deal]
-        attr_accessor :deal
+        attribute :deal, :Deal
         # @return [Task]
-        attr_accessor :task
+        attribute :task, :Task
       end
     end
   end

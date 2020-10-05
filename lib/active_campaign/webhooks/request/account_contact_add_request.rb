@@ -6,23 +6,23 @@ module ActiveCampaign
       # AC Request Struct AccountContactAddRequest
       class AccountContactAddRequest < BaseRequest
         # @return [String]
-        attr_accessor :account_contact_add_request_type
+        attribute :account_contact_add_request_type
         # @return [String]
-        attr_accessor :date_time
+        attribute :date_time
         # @return [String]
-        attr_accessor :initiated_from
+        attribute :initiated_from
         # @return [String]
-        attr_accessor :initiated_by
+        attribute :initiated_by
         # @return [String]
-        attr_accessor :list
+        attribute :list
         # @return [Account]
-        attr_accessor :account
+        attribute :account, :Account
         # @return [AccountContact]
-        attr_accessor :account_contact
+        attribute :account_contact, :AccountContact
         # @return [AccountContactRemoved]
-        attr_accessor :account_contact_removed
+        attribute :account_contact_removed, :AccountContactRemoved
         # @return [Contact]
-        attr_accessor :contact
+        attribute :contact, :Contact
       end
     end
   end

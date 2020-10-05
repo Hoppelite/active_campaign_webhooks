@@ -6,11 +6,11 @@ module ActiveCampaign
       # AC Request Struct AccountContactRemoved
       class AccountContactRemoved < BaseRequest
         # @return [String]
-        attr_accessor :id
+        attribute :id
         # @return [String]
-        attr_accessor :account
+        attribute :account
         # @return [String]
-        attr_accessor :contact
+        attribute :contact
       end
     end
   end

@@ -6,15 +6,15 @@ module ActiveCampaign
       # AC Request Struct DealPipelineAddRequest
       class DealPipelineAddRequest < BaseRequest
         # @return [String]
-        attr_accessor :deal_pipeline_add_request_type
+        attribute :deal_pipeline_add_request_type
         # @return [String]
-        attr_accessor :date_time
+        attribute :date_time
         # @return [String]
-        attr_accessor :initiated_by
+        attribute :initiated_by
         # @return [String]
-        attr_accessor :initiated_from
+        attribute :initiated_from
         # @return [Pipeline]
-        attr_accessor :pipeline
+        attribute :pipeline, :Pipeline
       end
     end
   end

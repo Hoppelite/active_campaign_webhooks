@@ -6,25 +6,25 @@ module ActiveCampaign
       # AC Request Struct Contact
       class Contact < BaseRequest
         # @return [String]
-        attr_accessor :email
+        attribute :email
         # @return [String]
-        attr_accessor :first_name
+        attribute :first_name
         # @return [String]
-        attr_accessor :last_name
+        attribute :last_name
         # @return [String]
-        attr_accessor :id
+        attribute :id
         # @return [String]
-        attr_accessor :tags
+        attribute :tags
         # @return [String]
-        attr_accessor :ip
+        attribute :ip
         # @return [String]
-        attr_accessor :phone
+        attribute :phone
         # @return [String]
-        attr_accessor :customer_acct_name
+        attribute :customer_acct_name
         # @return [String]
-        attr_accessor :customer_acct_id
+        attribute :customer_acct_id
         # @return [Fields]
-        attr_accessor :fields
+        attribute :fields, :Fields
       end
     end
   end

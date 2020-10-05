@@ -10,7 +10,7 @@ module ActiveCampaign
 
           request_model.new data
         end
-end
+      end
     end
   end
 end

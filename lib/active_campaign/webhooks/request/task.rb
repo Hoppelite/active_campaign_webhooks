@@ -6,19 +6,19 @@ module ActiveCampaign
       # AC Request Struct Task
       class Task < BaseRequest
         # @return [String]
-        attr_accessor :note
+        attribute :note
         # @return [String]
-        attr_accessor :id
+        attribute :id
         # @return [String]
-        attr_accessor :duedate
+        attribute :duedate
         # @return [String]
-        attr_accessor :donedate
+        attribute :donedate
         # @return [String]
-        attr_accessor :type_title
+        attribute :type_title
         # @return [String]
-        attr_accessor :title
+        attribute :title
         # @return [String]
-        attr_accessor :type_id
+        attribute :type_id
       end
     end
   end

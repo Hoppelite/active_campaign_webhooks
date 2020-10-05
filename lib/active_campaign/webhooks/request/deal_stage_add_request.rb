@@ -6,15 +6,15 @@ module ActiveCampaign
       # AC Request Struct DealStageAddRequest
       class DealStageAddRequest < BaseRequest
         # @return [String]
-        attr_accessor :deal_stage_add_request_type
+        attribute :deal_stage_add_request_type
         # @return [String]
-        attr_accessor :date_time
+        attribute :date_time
         # @return [String]
-        attr_accessor :initiated_by
+        attribute :initiated_by
         # @return [String]
-        attr_accessor :initiated_from
+        attribute :initiated_from
         # @return [Stage]
-        attr_accessor :stage
+        attribute :stage, :Stage
       end
     end
   end

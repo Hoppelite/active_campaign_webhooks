@@ -6,9 +6,9 @@ module ActiveCampaign
       # AC Request Struct Tasktype
       class Tasktype < BaseRequest
         # @return [String]
-        attr_accessor :id
+        attribute :id
         # @return [String]
-        attr_accessor :title
+        attribute :title
       end
     end
   end

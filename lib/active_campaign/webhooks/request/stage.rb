@@ -6,11 +6,11 @@ module ActiveCampaign
       # AC Request Struct Share
       class Stage < BaseRequest
         # @return [String]
-        attr_accessor :id
+        attribute :id
         # @return [String]
-        attr_accessor :title
+        attribute :title
         # @return [String]
-        attr_accessor :color
+        attribute :color
       end
     end
   end

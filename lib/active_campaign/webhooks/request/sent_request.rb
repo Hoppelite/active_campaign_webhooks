@@ -6,19 +6,19 @@ module ActiveCampaign
       # AC Request Struct SentRequest
       class SentRequest < BaseRequest
         # @return [String]
-        attr_accessor :url
+        attribute :url
         # @return [String]
-        attr_accessor :sent_request_type
+        attribute :sent_request_type
         # @return [String]
-        attr_accessor :date_time
+        attribute :date_time
         # @return [String]
-        attr_accessor :initiated_by
+        attribute :initiated_by
         # @return [String]
-        attr_accessor :initiated_from
+        attribute :initiated_from
         # @return [String]
-        attr_accessor :list
+        attribute :list
         # @return [Campaign]
-        attr_accessor :campaign
+        attribute :campaign, :Campaign
       end
     end
   end

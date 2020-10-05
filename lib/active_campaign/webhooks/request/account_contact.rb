@@ -6,13 +6,13 @@ module ActiveCampaign
       # AC Request Struct AccountContact
       class AccountContact < BaseRequest
         # @return [String]
-        attr_accessor :id
+        attribute :id
         # @return [String]
-        attr_accessor :account
+        attribute :account
         # @return [String]
-        attr_accessor :contact
+        attribute :contact
         # @return [String]
-        attr_accessor :job_title
+        attribute :job_title
       end
     end
   end

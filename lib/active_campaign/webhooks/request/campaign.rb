@@ -6,13 +6,13 @@ module ActiveCampaign
       # AC Request Struct Campaign
       class Campaign < BaseRequest
         # @return [String]
-        attr_accessor :id
+        attribute :id
         # @return [String]
-        attr_accessor :status
+        attribute :status
         # @return [String]
-        attr_accessor :recipients
+        attribute :recipients
         # @return [String]
-        attr_accessor :campaign_type
+        attribute :campaign_type
       end
     end
   end

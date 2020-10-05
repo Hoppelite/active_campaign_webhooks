@@ -6,9 +6,9 @@ module ActiveCampaign
       # AC Request Struct Link
       class Link < BaseRequest
         # @return [String]
-        attr_accessor :id
+        attribute :id
         # @return [String]
-        attr_accessor :url
+        attribute :url
       end
     end
   end

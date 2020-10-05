@@ -6,21 +6,21 @@ module ActiveCampaign
       # AC Request Struct List
       class List < BaseRequest
         # @return [String]
-        attr_accessor :sender_url
+        attribute :sender_url
         # @return [String]
-        attr_accessor :sender_country
+        attribute :sender_country
         # @return [String]
-        attr_accessor :sender_addr1
+        attribute :sender_addr1
         # @return [String]
-        attr_accessor :sender_reminder
+        attribute :sender_reminder
         # @return [String]
-        attr_accessor :sender_city
+        attribute :sender_city
         # @return [String]
-        attr_accessor :sender_addr2
+        attribute :sender_addr2
         # @return [String]
-        attr_accessor :sender_state
+        attribute :sender_state
         # @return [String]
-        attr_accessor :sender_zip
+        attribute :sender_zip
       end
     end
   end

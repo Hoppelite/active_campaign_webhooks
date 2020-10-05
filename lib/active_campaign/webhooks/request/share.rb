@@ -6,11 +6,11 @@ module ActiveCampaign
       # AC Request Struct Share
       class Share < BaseRequest
         # @return [String]
-        attr_accessor :network
+        attribute :network
         # @return [String]
-        attr_accessor :network_id
+        attribute :network_id
         # @return [String]
-        attr_accessor :content
+        attribute :content
       end
     end
   end

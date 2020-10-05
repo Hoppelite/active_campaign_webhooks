@@ -6,17 +6,17 @@ module ActiveCampaign
       # AC Request Struct AccountUpdateRequest
       class AccountUpdateRequest < BaseRequest
         # @return [String]
-        attr_accessor :account_update_type
+        attribute :account_update_type
         # @return [String]
-        attr_accessor :date_time
+        attribute :date_time
         # @return [String]
-        attr_accessor :initiated_from
+        attribute :initiated_from
         # @return [String]
-        attr_accessor :initiated_by
+        attribute :initiated_by
         # @return [String]
-        attr_accessor :list
+        attribute :list
         # @return [Account]
-        attr_accessor :account
+        attribute :account, :Account
       end
     end
   end

@@ -6,17 +6,17 @@ module ActiveCampaign
       # AC Request Struct ContactAddTaskRequest
       class ContactAddTaskRequest < BaseRequest
         # @return [String]
-        attr_accessor :contact_add_task_request_type
+        attribute :contact_add_task_request_type
         # @return [String]
-        attr_accessor :date_time
+        attribute :date_time
         # @return [String]
-        attr_accessor :initiated_by
+        attribute :initiated_by
         # @return [String]
-        attr_accessor :initiated_from
+        attribute :initiated_from
         # @return [Contact]
-        attr_accessor :contact
+        attribute :contact, :Contact
         # @return [Task]
-        attr_accessor :task
+        attribute :task, :Task
       end
     end
   end

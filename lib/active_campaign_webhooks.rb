@@ -19,6 +19,6 @@ module ActiveCampaign
         class_name = file_path.split('/').last.split('_').collect(&:capitalize).join
         autoload class_name.to_sym, file_path
       end
-end
+    end
   end
 end

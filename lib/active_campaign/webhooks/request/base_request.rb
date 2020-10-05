@@ -5,6 +5,9 @@ module ActiveCampaign
     module Request
       # Base Request
       class BaseRequest
+        class << self
+          attr_accessor :attribute_map
+        end
         self.attribute_map = {}
         # @return [String]
         attribute :type

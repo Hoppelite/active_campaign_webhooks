@@ -17,7 +17,7 @@ module ActiveCampaign
         attr_accessor :updated_timestamp
         # @return [Array]
         attr_accessor :fields
-            end
+      end
     end
   end
 end

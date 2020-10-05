@@ -15,7 +15,7 @@ module ActiveCampaign
         attr_accessor :initiated_from
         # @return [Stage]
         attr_accessor :stage
-            end
+      end
     end
   end
 end

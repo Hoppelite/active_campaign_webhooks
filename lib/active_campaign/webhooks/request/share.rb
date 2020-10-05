@@ -11,7 +11,7 @@ module ActiveCampaign
         attr_accessor :network_id
         # @return [String]
         attr_accessor :content
-            end
+      end
     end
   end
 end

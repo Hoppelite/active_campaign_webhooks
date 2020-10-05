@@ -23,7 +23,7 @@ module ActiveCampaign
         attr_accessor :contact
         # @return [Forward]
         attr_accessor :forward
-            end
+      end
     end
   end
 end

@@ -17,7 +17,7 @@ module ActiveCampaign
         attr_accessor :list
         # @return [Account]
         attr_accessor :account
-            end
+      end
     end
   end
 end

@@ -17,7 +17,7 @@ module ActiveCampaign
         attr_accessor :deal
         # @return [Task]
         attr_accessor :task
-            end
+      end
     end
   end
 end

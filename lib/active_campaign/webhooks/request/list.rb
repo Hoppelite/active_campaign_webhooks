@@ -21,7 +21,7 @@ module ActiveCampaign
         attr_accessor :sender_state
         # @return [String]
         attr_accessor :sender_zip
-            end
+      end
     end
   end
 end

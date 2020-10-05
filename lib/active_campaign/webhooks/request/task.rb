@@ -19,7 +19,7 @@ module ActiveCampaign
         attr_accessor :title
         # @return [String]
         attr_accessor :type_id
-            end
+      end
     end
   end
 end

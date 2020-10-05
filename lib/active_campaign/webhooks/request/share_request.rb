@@ -23,7 +23,7 @@ module ActiveCampaign
         attr_accessor :contact
         # @return [Share]
         attr_accessor :share
-            end
+      end
     end
   end
 end

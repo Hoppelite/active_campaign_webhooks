@@ -15,7 +15,7 @@ module ActiveCampaign
         attr_accessor :initiated_from
         # @return [Tasktype]
         attr_accessor :tasktype
-            end
+      end
     end
   end
 end

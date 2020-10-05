@@ -13,7 +13,7 @@ module ActiveCampaign
         attr_accessor :recipients
         # @return [String]
         attr_accessor :campaign_type
-            end
+      end
     end
   end
 end

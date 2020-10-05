@@ -5,6 +5,10 @@ module ActiveCampaign
     module Request
       # AC Request Struct Deal
       class Deal < BaseRequest
+        STATUS_OPEN = '0'
+        STATUS_WON = '1'
+        STATUS_LOST = '2'
+
         # @return [String]
         attr_accessor :currency_symbol
         # @return [String]
@@ -49,7 +53,7 @@ module ActiveCampaign
         attr_accessor :owner_firstname
         # @return [String]
         attr_accessor :owner_lastname
-            end
+      end
     end
   end
 end

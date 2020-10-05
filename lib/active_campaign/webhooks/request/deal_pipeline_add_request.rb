@@ -15,7 +15,7 @@ module ActiveCampaign
         attr_accessor :initiated_from
         # @return [Pipeline]
         attr_accessor :pipeline
-            end
+      end
     end
   end
 end

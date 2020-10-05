@@ -19,7 +19,7 @@ module ActiveCampaign
         attr_accessor :list
         # @return [Campaign]
         attr_accessor :campaign
-            end
+      end
     end
   end
 end

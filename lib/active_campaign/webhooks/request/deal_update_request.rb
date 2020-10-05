@@ -17,7 +17,7 @@ module ActiveCampaign
         attr_accessor :deal
         # @return [UpdatedFields]
         attr_accessor :updated_fields
-            end
+      end
     end
   end
 end

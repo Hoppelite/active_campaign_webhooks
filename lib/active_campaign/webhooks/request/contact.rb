@@ -25,7 +25,7 @@ module ActiveCampaign
         attr_accessor :customer_acct_id
         # @return [Fields]
         attr_accessor :fields
-            end
+      end
     end
   end
 end

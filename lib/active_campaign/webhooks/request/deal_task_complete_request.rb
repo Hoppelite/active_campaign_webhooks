@@ -19,7 +19,7 @@ module ActiveCampaign
         attr_accessor :task
         # @return [Contact]
         attr_accessor :contact
-            end
+      end
     end
   end
 end

@@ -3,12 +3,14 @@
 module ActiveCampaign
   module Webhooks
     module Request
-      # AC Request Struct Pipeline
-      class Pipeline < BaseRequest
+      # AC Request Struct Share
+      class Stage < BaseRequest
         # @return [String]
         attr_accessor :id
         # @return [String]
         attr_accessor :title
+        # @return [String]
+        attr_accessor :color
       end
     end
   end

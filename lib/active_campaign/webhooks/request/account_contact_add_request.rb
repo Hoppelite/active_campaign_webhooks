@@ -23,7 +23,7 @@ module ActiveCampaign
         attr_accessor :account_contact_removed
         # @return [Contact]
         attr_accessor :contact
-            end
+      end
     end
   end
 end

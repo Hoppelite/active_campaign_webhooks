@@ -9,7 +9,7 @@ module ActiveCampaign
         attr_accessor :id
         # @return [String]
         attr_accessor :url
-            end
+      end
     end
   end
 end

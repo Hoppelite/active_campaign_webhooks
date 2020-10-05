@@ -7,7 +7,7 @@ module ActiveCampaign
       class Forward < BaseRequest
         # @return [String]
         attr_accessor :count
-            end
+      end
     end
   end
 end

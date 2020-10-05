@@ -13,7 +13,7 @@ module ActiveCampaign
         attr_accessor :contact
         # @return [String]
         attr_accessor :job_title
-            end
+      end
     end
   end
 end

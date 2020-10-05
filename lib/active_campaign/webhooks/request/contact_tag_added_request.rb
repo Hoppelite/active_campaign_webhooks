@@ -21,7 +21,7 @@ module ActiveCampaign
         attr_accessor :tag
         # @return [Contact]
         attr_accessor :contact
-            end
+      end
     end
   end
 end

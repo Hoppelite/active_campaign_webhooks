@@ -7,7 +7,7 @@ module ActiveCampaign
       class Unsubscribe < BaseRequest
         # @return [String]
         attr_accessor :reason
-            end
+      end
     end
   end
 end

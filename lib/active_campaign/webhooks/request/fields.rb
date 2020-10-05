@@ -5,7 +5,7 @@ module ActiveCampaign
     module Request
       # AC Request Struct Fields
       class Fields < BaseRequest
-            end
+      end
     end
   end
 end

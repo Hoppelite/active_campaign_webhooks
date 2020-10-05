@@ -23,7 +23,7 @@ module ActiveCampaign
         attr_accessor :contact
         # @return [Link]
         attr_accessor :link
-            end
+      end
     end
   end
 end

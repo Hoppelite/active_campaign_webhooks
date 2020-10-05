@@ -15,7 +15,7 @@ module ActiveCampaign
         attr_accessor :initiated_from
         # @return [Deal]
         attr_accessor :deal
-            end
+      end
     end
   end
 end

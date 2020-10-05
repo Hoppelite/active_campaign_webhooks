@@ -15,7 +15,7 @@ module ActiveCampaign
         attr_accessor :initiated_from
         # @return [List]
         attr_accessor :list
-            end
+      end
     end
   end
 end

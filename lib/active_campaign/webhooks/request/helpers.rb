@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module ActiveCampaign
   module Webhooks
     module Request
@@ -8,7 +10,7 @@ module ActiveCampaign
 
           request_model.new data
         end
-      end
+end
     end
   end
 end

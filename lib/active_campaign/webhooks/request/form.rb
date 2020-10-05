@@ -7,7 +7,7 @@ module ActiveCampaign
       class Form < BaseRequest
         # @return [String]
         attr_accessor :id
-            end
+      end
     end
   end
 end

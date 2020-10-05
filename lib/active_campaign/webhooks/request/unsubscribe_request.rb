@@ -25,7 +25,7 @@ module ActiveCampaign
         attr_accessor :unsubscribe
         # @return [Contact]
         attr_accessor :contact
-            end
+      end
     end
   end
 end

@@ -25,7 +25,7 @@ module ActiveCampaign
         attr_accessor :result
         # @return [String]
         attr_accessor :message
-            end
+      end
     end
   end
 end

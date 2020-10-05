@@ -19,6 +19,10 @@ module ActiveCampaign
           end
         end
 
+        def slice attributes = []
+          to_hash.slice(attributes)
+        end
+
         def self.attribute name, classname = nil
           attr_accessor name
           self.attribute_map[name] = classname unless classname.nil?

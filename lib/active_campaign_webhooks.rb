@@ -2,8 +2,17 @@
 
 require 'active_campaign/webhooks/version'
 
+#
+# Active Campaign
+#
 module ActiveCampaign
+  #
+  # AC Webhook Helpers
+  #
   module Webhooks
+    #
+    # Webhook Request Structs and Helpers
+    #
     module Request
       Dir["#{File.join(File.dirname(__FILE__))}/active_campaign/webhooks/request/*.rb"].sort.each do |f|
         file_path = f.delete_suffix('.rb')

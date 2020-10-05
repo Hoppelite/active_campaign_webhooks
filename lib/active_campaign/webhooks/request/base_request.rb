@@ -7,8 +7,15 @@ module ActiveCampaign
       class BaseRequest
         class << self
           attr_accessor :attribute_map
+
+          def attribute name, classname = nil
+            attr_accessor name
+            self.attribute_map[name] = classname unless classname.nil?
+          end
         end
+
         self.attribute_map = {}
+        
         # @return [String]
         attribute :type
 
@@ -24,11 +31,6 @@ module ActiveCampaign
 
         def slice attributes = []
           to_hash.slice(attributes)
-        end
-
-        def self.attribute name, classname = nil
-          attr_accessor name
-          self.attribute_map[name] = classname unless classname.nil?
         end
       end
     end

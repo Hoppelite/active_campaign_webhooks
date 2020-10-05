@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    active_campaign_webhooks (0.1.15)
+    active_campaign_webhooks (0.1.17)
       dry-struct
       dry-types
 

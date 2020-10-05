@@ -8,7 +8,10 @@ module ActiveCampaign
       require 'dry-struct'
 
       module Types
-        String = Dry.Types['String']
+        include Dry.Types()
+
+        Hash   = Coercible::Hash.optional.meta(omittable: true)
+        String = Coercible::String.optional.meta(omittable: true)
       end
 
       class BaseRequest < Dry::Struct

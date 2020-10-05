@@ -15,8 +15,8 @@ module ActiveCampaign
         attribute :initiated_from
         # @return [Deal]
         attribute :deal, :Deal
-        # @return [UpdatedFields]
-        attribute :updated_fields, :UpdatedFields
+        # @return [Hash]
+        attribute :updated_fields
       end
     end
   end

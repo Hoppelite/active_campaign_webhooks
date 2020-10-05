@@ -23,8 +23,8 @@ module ActiveCampaign
         attribute :customer_acct_name
         # @return [String]
         attribute :customer_acct_id
-        # @return [Fields]
-        attribute :fields, :Fields
+        # @return [Hash]
+        attribute :fields
       end
     end
   end

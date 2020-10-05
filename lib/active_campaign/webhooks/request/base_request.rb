@@ -8,9 +8,8 @@ module ActiveCampaign
         # @return [String]
         attr_accessor :type
 
-        def initialize(hash = {}, **kwargs)
-          hash = hash.merge(kwargs)
-          hash.each { |k, v| obj.public_send("#{k}=", v) }
+        def initialize(hash = {})
+          hash.each { |k, v| public_send("#{k}=", v) if respond_to? "#{k}=" }
         end
       end
     end

@@ -4,14 +4,13 @@ module ActiveCampaign
   module Webhooks
     module Request
       # Base Request
-      class BaseRequest < Hash
-        transform_keys(&:to_sym)
-
+      class BaseRequest
         # @return [String]
         attr_accessor :type
 
-        def initialize(hash = {})
-          merge hash
+        def initialize(hash = {}, **kwargs)
+          hash = hash.merge(kwargs)
+          hash.each { |k, v| obj.public_send("#{k}=", v) }
         end
       end
     end

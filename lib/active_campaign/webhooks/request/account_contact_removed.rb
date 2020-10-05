@@ -11,7 +11,7 @@ module ActiveCampaign
         attr_accessor :account
         # @return [String]
         attr_accessor :contact
-            end
+      end
     end
   end
 end

@@ -1,14 +1,12 @@
 PATH
   remote: .
   specs:
-    active_campaign_webhooks (0.2.12)
-      yard
+    active_campaign_webhooks (0.2.13)
 
 GEM
   remote: https://rubygems.org/
   specs:
     rake (12.3.3)
-    yard (0.9.25)
 
 PLATFORMS
   ruby
@@ -16,7 +14,6 @@ PLATFORMS
 DEPENDENCIES
   active_campaign_webhooks!
   rake (~> 12.0)
-  yard
 
 BUNDLED WITH
    2.1.4

@@ -1,5 +1,6 @@
 # ActiveCampaignWebhooks
-
+### --- WIP --- ###
+Structs and helpers for ActiveCampaign Webhooks
 
 ## Installation
 
@@ -19,7 +20,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+# creates new request object with documented accessors
+ActiveCampaign::Webhooks::Request::DealUpdateRequest.new {deal: {id: 1}}
+
+# returns the relevant object based on the type field
+ActiveCampaign::Webhooks::Request::Helpers.get_request {type: 'deal_update', deal: {id: 1}}
+```
 
 ## Development
 

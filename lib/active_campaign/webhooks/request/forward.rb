@@ -4,9 +4,9 @@ module ActiveCampaign
   module Webhooks
     module Request
       # AC Request Struct Forward
-      class Forward < BaseRequest
-        # @return [String]
-        attribute :count
+      class Forward < BaseRecord
+        # @return [Number]
+        attribute :count, :Number
       end
     end
   end

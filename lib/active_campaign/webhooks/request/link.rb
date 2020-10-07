@@ -4,9 +4,9 @@ module ActiveCampaign
   module Webhooks
     module Request
       # AC Request Struct Link
-      class Link < BaseRequest
-        # @return [String]
-        attribute :id
+      class Link < BaseRecord
+        # @return [Number]
+        attribute :id, :Number
         # @return [String]
         attribute :url
       end

@@ -4,15 +4,15 @@ module ActiveCampaign
   module Webhooks
     module Request
       # AC Request Struct Campaign
-      class Campaign < BaseRequest
+      class Campaign < BaseRecord
+        # @return [Number]
+        attribute :id, :Number
+        # @return [Number]
+        attribute :status, :Number
+        # @return [Number]
+        attribute :recipients, :Number
         # @return [String]
-        attribute :id
-        # @return [String]
-        attribute :status
-        # @return [String]
-        attribute :recipients
-        # @return [String]
-        attribute :campaign_type
+        attribute :webcopy_url
       end
     end
   end

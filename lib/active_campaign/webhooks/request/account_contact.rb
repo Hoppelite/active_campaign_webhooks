@@ -4,13 +4,13 @@ module ActiveCampaign
   module Webhooks
     module Request
       # AC Request Struct AccountContact
-      class AccountContact < BaseRequest
-        # @return [String]
-        attribute :id
-        # @return [String]
-        attribute :account
-        # @return [String]
-        attribute :contact
+      class AccountContact < BaseRecord
+        # @return [Number]
+        attribute :id, :Number
+        # @return [Number]
+        attribute :account, :Number
+        # @return [Number]
+        attribute :contact, :Number
         # @return [String]
         attribute :job_title
       end

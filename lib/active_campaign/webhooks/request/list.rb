@@ -4,7 +4,7 @@ module ActiveCampaign
   module Webhooks
     module Request
       # AC Request Struct List
-      class List < BaseRequest
+      class List < BaseRecord
         # @return [String]
         attribute :sender_url
         # @return [String]

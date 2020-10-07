@@ -4,7 +4,7 @@ module ActiveCampaign
   module Webhooks
     module Request
       # AC Request Struct UpdatedFields
-      class UpdatedFields < BaseRequest
+      class UpdatedFields < BaseRecord
       end
     end
   end

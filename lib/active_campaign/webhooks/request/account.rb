@@ -4,17 +4,17 @@ module ActiveCampaign
   module Webhooks
     module Request
       # AC Request Struct Account
-      class Account < BaseRequest
-        # @return [String]
-        attribute :id
+      class Account < BaseRecord
+        # @return [Number]
+        attribute :id, :Number
         # @return [String]
         attribute :account_name
         # @return [String]
         attribute :account_url
-        # @return [String]
-        attribute :created_timestamp
-        # @return [String]
-        attribute :updated_timestamp
+        # @return [DateTime]
+        attribute :created_timestamp, :DateTime
+        # @return [DateTime]
+        attribute :updated_timestamp, :DateTime
         # @return [Hash]
         attribute :fields
       end

@@ -4,9 +4,9 @@ module ActiveCampaign
   module Webhooks
     module Request
       # AC Request Struct Share
-      class Stage < BaseRequest
-        # @return [String]
-        attribute :id
+      class Stage < BaseRecord
+        # @return [Number]
+        attribute :id, :Number
         # @return [String]
         attribute :title
         # @return [String]

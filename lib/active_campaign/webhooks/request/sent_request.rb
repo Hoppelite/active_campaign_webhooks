@@ -7,16 +7,8 @@ module ActiveCampaign
       class SentRequest < BaseRequest
         # @return [String]
         attribute :url
-        # @return [String]
-        attribute :sent_request_type
-        # @return [String]
-        attribute :date_time
-        # @return [String]
-        attribute :initiated_by
-        # @return [String]
-        attribute :initiated_from
-        # @return [String]
-        attribute :list
+        # @return [Number]
+        attribute :list, :Number
         # @return [Campaign]
         attribute :campaign, :Campaign
       end

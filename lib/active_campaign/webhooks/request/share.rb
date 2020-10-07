@@ -4,11 +4,11 @@ module ActiveCampaign
   module Webhooks
     module Request
       # AC Request Struct Share
-      class Share < BaseRequest
+      class Share < BaseRecord
         # @return [String]
         attribute :network
-        # @return [String]
-        attribute :network_id
+        # @return [Number]
+        attribute :network_id, :Number
         # @return [String]
         attribute :content
       end

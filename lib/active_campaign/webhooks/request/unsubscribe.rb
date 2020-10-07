@@ -4,7 +4,7 @@ module ActiveCampaign
   module Webhooks
     module Request
       # AC Request Struct Unsubscribe
-      class Unsubscribe < BaseRequest
+      class Unsubscribe < BaseRecord
         # @return [String]
         attribute :reason
       end

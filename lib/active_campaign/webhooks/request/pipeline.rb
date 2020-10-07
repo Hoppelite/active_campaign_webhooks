@@ -4,9 +4,9 @@ module ActiveCampaign
   module Webhooks
     module Request
       # AC Request Struct Pipeline
-      class Pipeline < BaseRequest
-        # @return [String]
-        attribute :id
+      class Pipeline < BaseRecord
+        # @return [Number]
+        attribute :id, :Number
         # @return [String]
         attribute :title
       end

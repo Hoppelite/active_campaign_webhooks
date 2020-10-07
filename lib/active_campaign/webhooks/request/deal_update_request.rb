@@ -5,14 +5,6 @@ module ActiveCampaign
     module Request
       # AC Request Struct DealUpdateRequest
       class DealUpdateRequest < BaseRequest
-        # @return [String]
-        attribute :deal_update_request_type
-        # @return [String]
-        attribute :date_time
-        # @return [String]
-        attribute :initiated_by
-        # @return [String]
-        attribute :initiated_from
         # @return [Deal]
         attribute :deal, :Deal
         # @return [Hash]

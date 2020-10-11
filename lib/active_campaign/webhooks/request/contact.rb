@@ -11,8 +11,8 @@ module ActiveCampaign
         attribute :first_name
         # @return [String]
         attribute :last_name
-        # @return [Number]
-        attribute :id, :Number
+        # @return [Integer]
+        attribute :id, :Integer
         # @return [String]
         attribute :tags
         # @return [String]
@@ -21,8 +21,8 @@ module ActiveCampaign
         attribute :phone
         # @return [String]
         attribute :customer_acct_name
-        # @return [Number]
-        attribute :customer_acct_id, :Number
+        # @return [Integer]
+        attribute :customer_acct_id, :Integer
         # @return [Hash]
         attribute :fields
       end

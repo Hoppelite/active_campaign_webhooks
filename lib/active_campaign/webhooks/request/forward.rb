@@ -5,8 +5,8 @@ module ActiveCampaign
     module Request
       # AC Request Struct Forward
       class Forward < BaseRecord
-        # @return [Number]
-        attribute :count, :Number
+        # @return [Integer]
+        attribute :count, :Integer
       end
     end
   end

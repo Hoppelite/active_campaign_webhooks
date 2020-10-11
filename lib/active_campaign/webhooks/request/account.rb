@@ -5,8 +5,8 @@ module ActiveCampaign
     module Request
       # AC Request Struct Account
       class Account < BaseRecord
-        # @return [Number]
-        attribute :id, :Number
+        # @return [Integer]
+        attribute :id, :Integer
         # @return [String]
         attribute :account_name
         # @return [String]

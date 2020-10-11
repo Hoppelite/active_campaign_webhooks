@@ -13,16 +13,16 @@ module ActiveCampaign
         attribute :currency_symbol
         # @return [String]
         attribute :currency
-        # @return [Number]
-        attribute :customer_acct_id, :Number
-        # @return [Number]
-        attribute :stageid, :Number
-        # @return [Number]
-        attribute :owner, :Number
+        # @return [Integer]
+        attribute :customer_acct_id, :Integer
+        # @return [Integer]
+        attribute :stageid, :Integer
+        # @return [Integer]
+        attribute :owner, :Integer
         # @return [String]
         attribute :contact_lastname
-        # @return [Number]
-        attribute :id, :Number
+        # @return [Integer]
+        attribute :id, :Integer
         # @return [String]
         attribute :pipeline_title
         # @return [String]
@@ -33,14 +33,14 @@ module ActiveCampaign
         attribute :customer_acct_name
         # @return [String]
         attribute :stage_title
-        # @return [Number]
-        attribute :pipelineid, :Number
+        # @return [Integer]
+        attribute :pipelineid, :Integer
         # @return [String]
         attribute :note
-        # @return [Number]
-        attribute :contactid, :Number
-        # @return [Number]
-        attribute :status, :Number
+        # @return [Integer]
+        attribute :contactid, :Integer
+        # @return [Integer]
+        attribute :status, :Integer
         # @return [String]
         attribute :contact_firstname
         # @return [String]

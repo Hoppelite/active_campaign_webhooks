@@ -5,8 +5,8 @@ module ActiveCampaign
     module Request
       # AC Request Struct Tasktype
       class Tasktype < BaseRecord
-        # @return [Number]
-        attribute :id, :Number
+        # @return [Integer]
+        attribute :id, :Integer
         # @return [String]
         attribute :title
       end

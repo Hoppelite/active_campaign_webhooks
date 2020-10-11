@@ -7,8 +7,8 @@ module ActiveCampaign
       class SubscribeRequest < BaseRequest
         # @return [String]
         attribute :url
-        # @return [Number]
-        attribute :list, :Number
+        # @return [Integer]
+        attribute :list, :Integer
         # @return [Form]
         attribute :form, :Form
         # @return [Contact]

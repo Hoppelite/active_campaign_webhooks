@@ -7,8 +7,8 @@ module ActiveCampaign
       class UnsubscribeRequest < BaseRequest
         # @return [String]
         attribute :url
-        # @return [Number]
-        attribute :list, :Number
+        # @return [Integer]
+        attribute :list, :Integer
         # @return [Campaign]
         attribute :form, :Campaign
         # @return [Campaign]

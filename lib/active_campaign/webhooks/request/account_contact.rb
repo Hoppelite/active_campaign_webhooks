@@ -5,12 +5,12 @@ module ActiveCampaign
     module Request
       # AC Request Struct AccountContact
       class AccountContact < BaseRecord
-        # @return [Number]
-        attribute :id, :Number
-        # @return [Number]
-        attribute :account, :Number
-        # @return [Number]
-        attribute :contact, :Number
+        # @return [Integer]
+        attribute :id, :Integer
+        # @return [Integer]
+        attribute :account, :Integer
+        # @return [Integer]
+        attribute :contact, :Integer
         # @return [String]
         attribute :job_title
       end

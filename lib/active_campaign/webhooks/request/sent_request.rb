@@ -7,8 +7,8 @@ module ActiveCampaign
       class SentRequest < BaseRequest
         # @return [String]
         attribute :url
-        # @return [Number]
-        attribute :list, :Number
+        # @return [Integer]
+        attribute :list, :Integer
         # @return [Campaign]
         attribute :campaign, :Campaign
       end

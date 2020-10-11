@@ -7,8 +7,8 @@ module ActiveCampaign
       class ContactTagAddedRequest < BaseRequest
         # @return [String]
         attribute :url
-        # @return [Number]
-        attribute :list, :Number
+        # @return [Integer]
+        attribute :list, :Integer
         # @return [String]
         attribute :tag
         # @return [Contact]

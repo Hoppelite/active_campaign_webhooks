@@ -13,8 +13,8 @@ module ActiveCampaign
         attribute :initiated_from
         # @return [String]
         attribute :initiated_by
-        # @return [Number]
-        attribute :list, :Number
+        # @return [Integer]
+        attribute :list, :Integer
       end
     end
   end

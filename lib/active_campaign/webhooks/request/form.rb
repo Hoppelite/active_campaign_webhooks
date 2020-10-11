@@ -5,8 +5,8 @@ module ActiveCampaign
     module Request
       # AC Request Struct Form
       class Form < BaseRecord
-        # @return [Number]
-        attribute :id, :Number
+        # @return [Integer]
+        attribute :id, :Integer
       end
     end
   end

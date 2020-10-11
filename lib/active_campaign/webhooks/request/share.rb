@@ -7,8 +7,8 @@ module ActiveCampaign
       class Share < BaseRecord
         # @return [String]
         attribute :network
-        # @return [Number]
-        attribute :network_id, :Number
+        # @return [Integer]
+        attribute :network_id, :Integer
         # @return [String]
         attribute :content
       end

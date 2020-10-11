@@ -5,12 +5,12 @@ module ActiveCampaign
     module Request
       # AC Request Struct Campaign
       class Campaign < BaseRecord
-        # @return [Number]
-        attribute :id, :Number
-        # @return [Number]
-        attribute :status, :Number
-        # @return [Number]
-        attribute :recipients, :Number
+        # @return [Integer]
+        attribute :id, :Integer
+        # @return [Integer]
+        attribute :status, :Integer
+        # @return [Integer]
+        attribute :recipients, :Integer
         # @return [String]
         attribute :webcopy_url
       end

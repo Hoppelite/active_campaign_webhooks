@@ -47,8 +47,8 @@ module ActiveCampaign
         attribute :contact_email
         # @return [String]
         attribute :contact_avatar
-        # @return [Float]
-        attribute :age, :Float
+        # @return [DateTime]
+        attribute :age, :DateTime
         # @return [Float]
         attribute :value, :Float
         # @return [String]

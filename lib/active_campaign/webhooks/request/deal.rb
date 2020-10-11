@@ -14,7 +14,9 @@ module ActiveCampaign
         # @return [String]
         attribute :currency
         # @return [Integer]
-        attribute :customer_acct_id, :Integer
+        attribute :orgid, :Integer
+        # @return [String]
+        attribute :orgname
         # @return [Integer]
         attribute :stageid, :Integer
         # @return [Integer]
@@ -29,8 +31,6 @@ module ActiveCampaign
         attribute :title
         # @return [DateTime]
         attribute :create_date, :DateTime
-        # @return [String]
-        attribute :customer_acct_name
         # @return [String]
         attribute :stage_title
         # @return [Integer]
@@ -47,8 +47,6 @@ module ActiveCampaign
         attribute :contact_email
         # @return [String]
         attribute :contact_avatar
-        # @return [DateTime]
-        attribute :age, :DateTime
         # @return [Float]
         attribute :value, :Float
         # @return [String]

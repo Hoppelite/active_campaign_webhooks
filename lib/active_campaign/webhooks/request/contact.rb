@@ -20,9 +20,7 @@ module ActiveCampaign
         # @return [String]
         attribute :phone
         # @return [String]
-        attribute :customer_acct_name
-        # @return [Integer]
-        attribute :customer_acct_id, :Integer
+        attribute :orgname
         # @return [Hash]
         attribute :fields
       end

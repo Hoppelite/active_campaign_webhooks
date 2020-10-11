@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    active_campaign_webhooks (0.3.2)
+    active_campaign_webhooks (0.3.3)
 
 GEM
   remote: https://rubygems.org/

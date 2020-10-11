@@ -5,9 +5,9 @@ module ActiveCampaign
     module Request
       # AC Request Struct Deal
       class Deal < BaseRecord
-        STATUS_OPEN = '0'
-        STATUS_WON = '1'
-        STATUS_LOST = '2'
+        STATUS_OPEN = 0
+        STATUS_WON = 1
+        STATUS_LOST = 2
 
         # @return [String]
         attribute :currency_symbol

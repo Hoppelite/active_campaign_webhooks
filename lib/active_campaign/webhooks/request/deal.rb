@@ -27,6 +27,8 @@ module ActiveCampaign
         attribute :pipeline_title
         # @return [String]
         attribute :title
+        # @return [DateTime]
+        attribute :create_date, :DateTime
         # @return [String]
         attribute :customer_acct_name
         # @return [String]

@@ -7,6 +7,8 @@ module ActiveCampaign
       class DealUpdateRequest < BaseRequest
         # @return [Deal]
         attribute :deal, :Deal
+        # @return [Contact]
+        attribute :contact, :Contact
         # @return [Hash]
         attribute :updated_fields
       end

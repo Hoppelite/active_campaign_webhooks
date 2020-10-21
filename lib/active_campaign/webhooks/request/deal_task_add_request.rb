@@ -7,6 +7,8 @@ module ActiveCampaign
       class DealTaskAddRequest < BaseRequest
         # @return [Deal]
         attribute :deal, :Deal
+        # @return [Contact]
+        attribute :contact, :Contact
         # @return [Task]
         attribute :task, :Task
       end

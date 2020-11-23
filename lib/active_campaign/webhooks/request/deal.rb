@@ -48,7 +48,9 @@ module ActiveCampaign
         # @return [String]
         attribute :contact_avatar
         # @return [Float]
-        attribute :value, :Float
+        attribute :value_raw, :Float
+        # @return [string]
+        attribute :value
         # @return [String]
         attribute :owner_firstname
         # @return [String]
